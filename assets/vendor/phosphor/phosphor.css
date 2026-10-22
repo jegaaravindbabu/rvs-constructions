@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Phosphor";
+  src: url("./Phosphor.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.ph {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "Phosphor" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.ph.ph-arrow-right:before {
+  content: "\e06c";
+}
+.ph.ph-arrow-left:before {
+  content: "\e058";
+}
+.ph.ph-arrow-up-right:before {
+  content: "\e092";
+}
+.ph.ph-x:before {
+  content: "\e4f6";
+}
+.ph.ph-whatsapp-logo:before {
+  content: "\e5d0";
+}
+.ph.ph-phone:before {
+  content: "\e3b8";
+}
+.ph.ph-envelope-simple:before {
+  content: "\e218";
+}
+.ph.ph-map-pin:before {
+  content: "\e316";
+}
+.ph.ph-check:before {
+  content: "\e182";
+}
+.ph.ph-shield-check:before {
+  content: "\e40c";
+}
+.ph.ph-hard-hat:before {
+  content: "\ed46";
+}
+.ph.ph-user-circle-check:before {
+  content: "\ec38";
+}
+.ph.ph-calendar-check:before {
+  content: "\e712";
+}
+.ph.ph-images:before {
+  content: "\e836";
+}
+.ph.ph-clock:before {
+  content: "\e19a";
+}
+.ph.ph-plus:before {
+  content: "\e3d4";
+}
+.ph.ph-house-line:before {
+  content: "\e2c4";
+}
+.ph.ph-warehouse:before {
+  content: "\ecd4";
+}
+.ph.ph-armchair:before {
+  content: "\e012";
+}
+.ph.ph-compass-tool:before {
+  content: "\ea0e";
+}
+.ph.ph-hammer:before {
+  content: "\e80e";
+}
+.ph.ph-pause:before {
+  content: "\e39e";
+}
+.ph.ph-play:before {
+  content: "\e3d0";
+}
